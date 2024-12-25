@@ -1,0 +1,10 @@
+D:\BanhMi\HiBanhMi\HiBanhMi\bin\Debug\HiBanhMi.exe.config
+D:\BanhMi\HiBanhMi\HiBanhMi\bin\Debug\HiBanhMi.exe
+D:\BanhMi\HiBanhMi\HiBanhMi\bin\Debug\HiBanhMi.pdb
+D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.csproj.AssemblyReference.cache
+D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.FormLogin.resources
+D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.Properties.Resources.resources
+D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.csproj.GenerateResource.cache
+D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.csproj.CoreCompileInputs.cache
+D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.exe
+D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.pdb
