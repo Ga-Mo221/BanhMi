@@ -181,14 +181,16 @@ namespace HiBanhMi
         int speed = 20;
         private void timedangky_Tick(object sender, EventArgs e)
         {
+            label2.Text = picporter.Location.X.ToString();
             pnchuyen.Location = new Point(pnchuyen.Location.X - speed, pnchuyen.Location.Y);
             if (pnchuyen.Location.X == 0)
             {
                 timedangky.Stop();
             }
-            if (pnchuyen.Location.X > 0)
+            if (pnchuyen.Location.X >= 0)
             {
                 btchuyendangky.Location = new Point(btchuyendangky.Location.X + speed, btchuyendangky.Location.Y);
+                picporter.Location = new Point(picporter.Location.X+speed, picporter.Location.Y);
             }
             if (pnchuyen.Location.X == 360)
             {
@@ -203,6 +205,7 @@ namespace HiBanhMi
 
         private void timedangnhap_Tick(object sender, EventArgs e)
         {
+            label2.Text = picporter.Location.X.ToString();
             pnchuyen.Location = new Point(pnchuyen.Location.X + speed, pnchuyen.Location.Y);
             if (pnchuyen.Location.X == 500)
             {
@@ -215,6 +218,7 @@ namespace HiBanhMi
             if (pnchuyen.Location.X > 0)
             {
                 btchuyendangky.Location = new Point(btchuyendangky.Location.X - speed, btchuyendangky.Location.Y);
+                picporter.Location = new Point(picporter.Location.X - speed, picporter.Location.Y);
             }
         }
 
