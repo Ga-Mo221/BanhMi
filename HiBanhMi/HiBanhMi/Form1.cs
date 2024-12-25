@@ -181,7 +181,6 @@ namespace HiBanhMi
         int speed = 20;
         private void timedangky_Tick(object sender, EventArgs e)
         {
-            label2.Text = picporter.Location.X.ToString();
             pnchuyen.Location = new Point(pnchuyen.Location.X - speed, pnchuyen.Location.Y);
             if (pnchuyen.Location.X == 0)
             {
@@ -205,7 +204,6 @@ namespace HiBanhMi
 
         private void timedangnhap_Tick(object sender, EventArgs e)
         {
-            label2.Text = picporter.Location.X.ToString();
             pnchuyen.Location = new Point(pnchuyen.Location.X + speed, pnchuyen.Location.Y);
             if (pnchuyen.Location.X == 500)
             {
