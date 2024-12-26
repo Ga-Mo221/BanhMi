@@ -158,8 +158,8 @@
             // 
             this.btdangnhap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btdangnhap.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btdangnhap.BorderColor = System.Drawing.Color.DodgerBlue;
-            this.btdangnhap.BorderRadius = 50;
+            this.btdangnhap.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btdangnhap.BorderRadius = 65;
             this.btdangnhap.BorderSize = 0;
             this.btdangnhap.FlatAppearance.BorderSize = 0;
             this.btdangnhap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -167,7 +167,7 @@
             this.btdangnhap.ForeColor = System.Drawing.Color.White;
             this.btdangnhap.Location = new System.Drawing.Point(154, 402);
             this.btdangnhap.Name = "btdangnhap";
-            this.btdangnhap.Size = new System.Drawing.Size(179, 65);
+            this.btdangnhap.Size = new System.Drawing.Size(189, 65);
             this.btdangnhap.TabIndex = 2;
             this.btdangnhap.Text = "ĐĂNG NHẬP";
             this.btdangnhap.TextColor = System.Drawing.Color.White;
@@ -331,8 +331,8 @@
             // 
             this.btdangky.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btdangky.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btdangky.BorderColor = System.Drawing.Color.DodgerBlue;
-            this.btdangky.BorderRadius = 50;
+            this.btdangky.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btdangky.BorderRadius = 65;
             this.btdangky.BorderSize = 0;
             this.btdangky.FlatAppearance.BorderSize = 0;
             this.btdangky.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -350,8 +350,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("JetBrains Mono ExtraBold", 47.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(672, 60);
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label7.Location = new System.Drawing.Point(682, 71);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(149, 84);
             this.label7.TabIndex = 6;
@@ -360,7 +362,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(668, 140);
+            this.label8.Location = new System.Drawing.Point(678, 151);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(143, 16);
             this.label8.TabIndex = 7;
@@ -371,6 +373,7 @@
             this.lbthongbaodangnhap.AutoSize = true;
             this.lbthongbaodangnhap.BackColor = System.Drawing.Color.Transparent;
             this.lbthongbaodangnhap.Font = new System.Drawing.Font("JetBrains Mono NL Medium", 7F, System.Drawing.FontStyle.Bold);
+            this.lbthongbaodangnhap.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.lbthongbaodangnhap.Location = new System.Drawing.Point(123, 383);
             this.lbthongbaodangnhap.Name = "lbthongbaodangnhap";
             this.lbthongbaodangnhap.Size = new System.Drawing.Size(63, 13);
@@ -382,6 +385,7 @@
             this.lbthongbaodangky.AutoSize = true;
             this.lbthongbaodangky.BackColor = System.Drawing.Color.Transparent;
             this.lbthongbaodangky.Font = new System.Drawing.Font("JetBrains Mono NL Medium", 7F, System.Drawing.FontStyle.Bold);
+            this.lbthongbaodangky.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.lbthongbaodangky.Location = new System.Drawing.Point(625, 384);
             this.lbthongbaodangky.Name = "lbthongbaodangky";
             this.lbthongbaodangky.Size = new System.Drawing.Size(224, 13);
@@ -393,17 +397,17 @@
             this.pnchuyen.Controls.Add(this.btchuyendangnhap);
             this.pnchuyen.Controls.Add(this.btchuyendangky);
             this.pnchuyen.Controls.Add(this.picporter);
-            this.pnchuyen.Location = new System.Drawing.Point(250, 12);
+            this.pnchuyen.Location = new System.Drawing.Point(49, 12);
             this.pnchuyen.Name = "pnchuyen";
             this.pnchuyen.Size = new System.Drawing.Size(499, 553);
             this.pnchuyen.TabIndex = 10;
             // 
             // btchuyendangnhap
             // 
-            this.btchuyendangnhap.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btchuyendangnhap.BackgroundColor = System.Drawing.Color.DodgerBlue;
-            this.btchuyendangnhap.BorderColor = System.Drawing.Color.DodgerBlue;
-            this.btchuyendangnhap.BorderRadius = 50;
+            this.btchuyendangnhap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btchuyendangnhap.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btchuyendangnhap.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btchuyendangnhap.BorderRadius = 69;
             this.btchuyendangnhap.BorderSize = 0;
             this.btchuyendangnhap.FlatAppearance.BorderSize = 0;
             this.btchuyendangnhap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -420,16 +424,16 @@
             // 
             // btchuyendangky
             // 
-            this.btchuyendangky.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btchuyendangky.BackgroundColor = System.Drawing.Color.DodgerBlue;
-            this.btchuyendangky.BorderColor = System.Drawing.Color.DodgerBlue;
-            this.btchuyendangky.BorderRadius = 50;
+            this.btchuyendangky.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btchuyendangky.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btchuyendangky.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btchuyendangky.BorderRadius = 69;
             this.btchuyendangky.BorderSize = 0;
             this.btchuyendangky.FlatAppearance.BorderSize = 0;
             this.btchuyendangky.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btchuyendangky.Font = new System.Drawing.Font("JetBrains Mono NL ExtraBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btchuyendangky.ForeColor = System.Drawing.Color.White;
-            this.btchuyendangky.Location = new System.Drawing.Point(183, 352);
+            this.btchuyendangky.Location = new System.Drawing.Point(172, 351);
             this.btchuyendangky.Name = "btchuyendangky";
             this.btchuyendangky.Size = new System.Drawing.Size(210, 69);
             this.btchuyendangky.TabIndex = 1;
@@ -440,7 +444,7 @@
             // 
             // picporter
             // 
-            this.picporter.Location = new System.Drawing.Point(-484, 12);
+            this.picporter.Location = new System.Drawing.Point(-481, 0);
             this.picporter.Name = "picporter";
             this.picporter.Size = new System.Drawing.Size(980, 553);
             this.picporter.TabIndex = 0;
