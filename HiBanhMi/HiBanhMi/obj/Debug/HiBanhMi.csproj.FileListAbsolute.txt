@@ -2,7 +2,10 @@ D:\BanhMi\HiBanhMi\HiBanhMi\bin\Debug\HiBanhMi.exe.config
 D:\BanhMi\HiBanhMi\HiBanhMi\bin\Debug\HiBanhMi.exe
 D:\BanhMi\HiBanhMi\HiBanhMi\bin\Debug\HiBanhMi.pdb
 D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.csproj.AssemblyReference.cache
+D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.customs.thanhchonchucnang.resources
 D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.FormLogin.resources
+D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.FormMain.resources
+D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.Forms.FormBatDau.resources
 D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.Properties.Resources.resources
 D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.csproj.GenerateResource.cache
 D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.csproj.CoreCompileInputs.cache

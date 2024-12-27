@@ -1,0 +1,11 @@
+D:\BanhMi\HiBanhMi_v1-1\HiBanhMi_v1-1\bin\Debug\HiBanhMi_v1-1.exe.config
+D:\BanhMi\HiBanhMi_v1-1\HiBanhMi_v1-1\bin\Debug\HiBanhMi_v1-1.exe
+D:\BanhMi\HiBanhMi_v1-1\HiBanhMi_v1-1\bin\Debug\HiBanhMi_v1-1.pdb
+D:\BanhMi\HiBanhMi_v1-1\HiBanhMi_v1-1\obj\Debug\HiBanhMi_v1-1.csproj.AssemblyReference.cache
+D:\BanhMi\HiBanhMi_v1-1\HiBanhMi_v1-1\obj\Debug\HiBanhMi_v1_1.Form1.resources
+D:\BanhMi\HiBanhMi_v1-1\HiBanhMi_v1-1\obj\Debug\HiBanhMi_v1_1.Properties.Resources.resources
+D:\BanhMi\HiBanhMi_v1-1\HiBanhMi_v1-1\obj\Debug\HiBanhMi_v1-1.csproj.GenerateResource.cache
+D:\BanhMi\HiBanhMi_v1-1\HiBanhMi_v1-1\obj\Debug\HiBanhMi_v1-1.csproj.CoreCompileInputs.cache
+D:\BanhMi\HiBanhMi_v1-1\HiBanhMi_v1-1\obj\Debug\HiBanhMi_v1-1.exe
+D:\BanhMi\HiBanhMi_v1-1\HiBanhMi_v1-1\obj\Debug\HiBanhMi_v1-1.pdb
+D:\BanhMi\HiBanhMi_v1-1\HiBanhMi_v1-1\obj\Debug\HiBanhMi_v1_1.texboxcustom.resources
