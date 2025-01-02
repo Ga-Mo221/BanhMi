@@ -1,3 +1,6 @@
 1,admin,1
 hau,email,12345678
 hoai,emailhoai,12345678
+bindepzai,bin123@gmail.com,thanhbin123
+thiet,emailk,123123123
+khanh,1234,123123123

@@ -58,3 +58,4 @@ Mật Khẩu Mới
 Nhập lại Mật Khẩu
 Đổi Mật Khẩu
 Mật Khẩu không khớp
+Đổi Mật Khẩu Thành Công

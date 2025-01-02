@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -34,8 +35,10 @@ namespace HiBanhMi_v1_2.Forms
             chonchucnang("home");
             // setting NN.nn
             tcn.AA_ten = uson.users.hoten;
-            
-            tcn.AA_anhdaidien = Image.FromFile(img.getpathImg(uson.users.avata));
+
+            tcn.AA_anhdaidien = img.LoadImageWithoutLocking(img.getpathImg(uson.users.avata));
+
+            //tcn.AA_anhdaidien = Image.FromFile(img.getpathImg(uson.users.avata));
             setngonngu();
 
 
@@ -48,7 +51,6 @@ namespace HiBanhMi_v1_2.Forms
             
             openf.Mo(pn_hienthi, acctiveform, new Homeform());
         }
-
 
 
         public void setngonngu()

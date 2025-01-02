@@ -39,6 +39,7 @@
             this.tb_sdt = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pn_doipass = new System.Windows.Forms.Panel();
+            this.lb_thongbao = new System.Windows.Forms.Label();
             this.tb_xacnhanmkmoi = new HiBanhMi_v1_2.UseControl.TextBox_DangNhap();
             this.tb_mkmoi = new HiBanhMi_v1_2.UseControl.TextBox_DangNhap();
             this.tb_mkCu = new HiBanhMi_v1_2.UseControl.TextBox_DangNhap();
@@ -57,7 +58,6 @@
             this.bt_Capnhat = new CustomButton.NutCustom();
             this.pic_suaavata = new CustomPictureBox.PictureBoxCustom();
             this.pic_avata = new CustomPictureBox.PictureBoxCustom();
-            this.lb_thongbao = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.pn_doipass.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -75,9 +75,10 @@
             this.lb_hoten.AutoSize = true;
             this.lb_hoten.BackColor = System.Drawing.Color.Transparent;
             this.lb_hoten.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.lb_hoten.Location = new System.Drawing.Point(36, 6);
+            this.lb_hoten.Location = new System.Drawing.Point(48, 7);
+            this.lb_hoten.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_hoten.Name = "lb_hoten";
-            this.lb_hoten.Size = new System.Drawing.Size(49, 15);
+            this.lb_hoten.Size = new System.Drawing.Size(58, 18);
             this.lb_hoten.TabIndex = 2;
             this.lb_hoten.Text = "Ho ten";
             // 
@@ -86,18 +87,20 @@
             this.tb_hoten.BackColor = System.Drawing.SystemColors.Control;
             this.tb_hoten.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tb_hoten.Font = new System.Drawing.Font("JetBrains Mono NL", 8.999999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.tb_hoten.Location = new System.Drawing.Point(65, 25);
+            this.tb_hoten.Location = new System.Drawing.Point(87, 31);
+            this.tb_hoten.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tb_hoten.Name = "tb_hoten";
-            this.tb_hoten.Size = new System.Drawing.Size(162, 16);
+            this.tb_hoten.Size = new System.Drawing.Size(216, 20);
             this.tb_hoten.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Black;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(36, 47);
+            this.label2.Location = new System.Drawing.Point(48, 58);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(200, 2);
+            this.label2.Size = new System.Drawing.Size(267, 2);
             this.label2.TabIndex = 2;
             // 
             // tb_diachi
@@ -105,18 +108,20 @@
             this.tb_diachi.BackColor = System.Drawing.SystemColors.Control;
             this.tb_diachi.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tb_diachi.Font = new System.Drawing.Font("JetBrains Mono NL", 8.999999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.tb_diachi.Location = new System.Drawing.Point(65, 94);
+            this.tb_diachi.Location = new System.Drawing.Point(87, 116);
+            this.tb_diachi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tb_diachi.Name = "tb_diachi";
-            this.tb_diachi.Size = new System.Drawing.Size(221, 16);
+            this.tb_diachi.Size = new System.Drawing.Size(295, 20);
             this.tb_diachi.TabIndex = 6;
             // 
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Black;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(36, 116);
+            this.label3.Location = new System.Drawing.Point(48, 143);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(250, 2);
+            this.label3.Size = new System.Drawing.Size(333, 2);
             this.label3.TabIndex = 4;
             // 
             // lb_diachi
@@ -124,9 +129,10 @@
             this.lb_diachi.AutoSize = true;
             this.lb_diachi.BackColor = System.Drawing.Color.Transparent;
             this.lb_diachi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.lb_diachi.Location = new System.Drawing.Point(36, 75);
+            this.lb_diachi.Location = new System.Drawing.Point(48, 92);
+            this.lb_diachi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_diachi.Name = "lb_diachi";
-            this.lb_diachi.Size = new System.Drawing.Size(50, 15);
+            this.lb_diachi.Size = new System.Drawing.Size(57, 18);
             this.lb_diachi.TabIndex = 5;
             this.lb_diachi.Text = "dia chi";
             // 
@@ -135,9 +141,10 @@
             this.lb_sdt.AutoSize = true;
             this.lb_sdt.BackColor = System.Drawing.Color.Transparent;
             this.lb_sdt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.lb_sdt.Location = new System.Drawing.Point(392, 6);
+            this.lb_sdt.Location = new System.Drawing.Point(523, 7);
+            this.lb_sdt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_sdt.Name = "lb_sdt";
-            this.lb_sdt.Size = new System.Drawing.Size(90, 15);
+            this.lb_sdt.Size = new System.Drawing.Size(105, 18);
             this.lb_sdt.TabIndex = 2;
             this.lb_sdt.Text = "so dien thoai";
             // 
@@ -145,9 +152,10 @@
             // 
             this.label6.BackColor = System.Drawing.Color.Black;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(392, 47);
+            this.label6.Location = new System.Drawing.Point(523, 58);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(200, 2);
+            this.label6.Size = new System.Drawing.Size(267, 2);
             this.label6.TabIndex = 2;
             // 
             // tb_sdt
@@ -155,15 +163,14 @@
             this.tb_sdt.BackColor = System.Drawing.SystemColors.Control;
             this.tb_sdt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tb_sdt.Font = new System.Drawing.Font("JetBrains Mono NL", 8.999999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.tb_sdt.Location = new System.Drawing.Point(421, 25);
+            this.tb_sdt.Location = new System.Drawing.Point(561, 31);
+            this.tb_sdt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tb_sdt.Name = "tb_sdt";
-            this.tb_sdt.Size = new System.Drawing.Size(162, 16);
+            this.tb_sdt.Size = new System.Drawing.Size(216, 20);
             this.tb_sdt.TabIndex = 3;
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.pn_doipass);
-            this.panel1.Controls.Add(this.bt_doipass);
             this.panel1.Controls.Add(this.pictureBox6);
             this.panel1.Controls.Add(this.pictureBox5);
             this.panel1.Controls.Add(this.pictureBox4);
@@ -180,9 +187,10 @@
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.lb_sdt);
             this.panel1.Controls.Add(this.tb_hoten);
-            this.panel1.Location = new System.Drawing.Point(75, 215);
+            this.panel1.Location = new System.Drawing.Point(100, 265);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(601, 344);
+            this.panel1.Size = new System.Drawing.Size(801, 423);
             this.panel1.TabIndex = 7;
             // 
             // pn_doipass
@@ -191,10 +199,21 @@
             this.pn_doipass.Controls.Add(this.tb_xacnhanmkmoi);
             this.pn_doipass.Controls.Add(this.tb_mkmoi);
             this.pn_doipass.Controls.Add(this.tb_mkCu);
-            this.pn_doipass.Location = new System.Drawing.Point(308, 125);
+            this.pn_doipass.Location = new System.Drawing.Point(510, 420);
+            this.pn_doipass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pn_doipass.Name = "pn_doipass";
-            this.pn_doipass.Size = new System.Drawing.Size(293, 218);
+            this.pn_doipass.Size = new System.Drawing.Size(391, 268);
             this.pn_doipass.TabIndex = 12;
+            // 
+            // lb_thongbao
+            // 
+            this.lb_thongbao.AutoSize = true;
+            this.lb_thongbao.Location = new System.Drawing.Point(72, 213);
+            this.lb_thongbao.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lb_thongbao.Name = "lb_thongbao";
+            this.lb_thongbao.Size = new System.Drawing.Size(44, 16);
+            this.lb_thongbao.TabIndex = 1;
+            this.lb_thongbao.Text = "label4";
             // 
             // tb_xacnhanmkmoi
             // 
@@ -204,10 +223,10 @@
             this.tb_xacnhanmkmoi.AA_pass = true;
             this.tb_xacnhanmkmoi.AA_Title = "Title";
             this.tb_xacnhanmkmoi.BackColor = System.Drawing.Color.Transparent;
-            this.tb_xacnhanmkmoi.Location = new System.Drawing.Point(37, 128);
+            this.tb_xacnhanmkmoi.Location = new System.Drawing.Point(49, 158);
             this.tb_xacnhanmkmoi.Margin = new System.Windows.Forms.Padding(0);
             this.tb_xacnhanmkmoi.Name = "tb_xacnhanmkmoi";
-            this.tb_xacnhanmkmoi.Size = new System.Drawing.Size(221, 41);
+            this.tb_xacnhanmkmoi.Size = new System.Drawing.Size(295, 50);
             this.tb_xacnhanmkmoi.TabIndex = 0;
             // 
             // tb_mkmoi
@@ -218,10 +237,10 @@
             this.tb_mkmoi.AA_pass = true;
             this.tb_mkmoi.AA_Title = "Title";
             this.tb_mkmoi.BackColor = System.Drawing.Color.Transparent;
-            this.tb_mkmoi.Location = new System.Drawing.Point(37, 74);
+            this.tb_mkmoi.Location = new System.Drawing.Point(49, 91);
             this.tb_mkmoi.Margin = new System.Windows.Forms.Padding(0);
             this.tb_mkmoi.Name = "tb_mkmoi";
-            this.tb_mkmoi.Size = new System.Drawing.Size(221, 41);
+            this.tb_mkmoi.Size = new System.Drawing.Size(295, 50);
             this.tb_mkmoi.TabIndex = 0;
             // 
             // tb_mkCu
@@ -232,10 +251,10 @@
             this.tb_mkCu.AA_pass = true;
             this.tb_mkCu.AA_Title = "Title";
             this.tb_mkCu.BackColor = System.Drawing.Color.Transparent;
-            this.tb_mkCu.Location = new System.Drawing.Point(37, 22);
+            this.tb_mkCu.Location = new System.Drawing.Point(49, 27);
             this.tb_mkCu.Margin = new System.Windows.Forms.Padding(0);
             this.tb_mkCu.Name = "tb_mkCu";
-            this.tb_mkCu.Size = new System.Drawing.Size(221, 41);
+            this.tb_mkCu.Size = new System.Drawing.Size(295, 50);
             this.tb_mkCu.TabIndex = 0;
             // 
             // bt_doipass
@@ -249,9 +268,10 @@
             this.bt_doipass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_doipass.Font = new System.Drawing.Font("JetBrains Mono NL", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_doipass.ForeColor = System.Drawing.Color.White;
-            this.bt_doipass.Location = new System.Drawing.Point(26, 253);
+            this.bt_doipass.Location = new System.Drawing.Point(100, 696);
+            this.bt_doipass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bt_doipass.Name = "bt_doipass";
-            this.bt_doipass.Size = new System.Drawing.Size(143, 36);
+            this.bt_doipass.Size = new System.Drawing.Size(191, 44);
             this.bt_doipass.TabIndex = 11;
             this.bt_doipass.Text = "Doi mat khau";
             this.bt_doipass.TextColor = System.Drawing.Color.White;
@@ -261,9 +281,10 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::HiBanhMi_v1_2.Properties.Resources.gioitinh;
-            this.pictureBox6.Location = new System.Drawing.Point(362, 89);
+            this.pictureBox6.Location = new System.Drawing.Point(483, 110);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox6.Size = new System.Drawing.Size(31, 28);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 10;
             this.pictureBox6.TabStop = false;
@@ -271,9 +292,10 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::HiBanhMi_v1_2.Properties.Resources.dienthoai;
-            this.pictureBox5.Location = new System.Drawing.Point(363, 19);
+            this.pictureBox5.Location = new System.Drawing.Point(484, 23);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox5.Size = new System.Drawing.Size(31, 28);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 10;
             this.pictureBox5.TabStop = false;
@@ -281,9 +303,10 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::HiBanhMi_v1_2.Properties.Resources.lich;
-            this.pictureBox4.Location = new System.Drawing.Point(7, 166);
+            this.pictureBox4.Location = new System.Drawing.Point(9, 204);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox4.Size = new System.Drawing.Size(31, 28);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 10;
             this.pictureBox4.TabStop = false;
@@ -292,9 +315,10 @@
             // 
             this.pictureBox3.BackgroundImage = global::HiBanhMi_v1_2.Properties.Resources.diachi;
             this.pictureBox3.Image = global::HiBanhMi_v1_2.Properties.Resources.diachi;
-            this.pictureBox3.Location = new System.Drawing.Point(7, 88);
+            this.pictureBox3.Location = new System.Drawing.Point(9, 108);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox3.Size = new System.Drawing.Size(31, 28);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 10;
             this.pictureBox3.TabStop = false;
@@ -302,9 +326,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::HiBanhMi_v1_2.Properties.Resources.user;
-            this.pictureBox2.Location = new System.Drawing.Point(7, 21);
+            this.pictureBox2.Location = new System.Drawing.Point(9, 26);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox2.Size = new System.Drawing.Size(31, 28);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
@@ -319,10 +344,10 @@
             this.lb_gioitinh.AA_nu = "Nữ";
             this.lb_gioitinh.AA_Title = "gioi tinh";
             this.lb_gioitinh.BackColor = System.Drawing.Color.Transparent;
-            this.lb_gioitinh.Location = new System.Drawing.Point(388, 72);
+            this.lb_gioitinh.Location = new System.Drawing.Point(517, 89);
             this.lb_gioitinh.Margin = new System.Windows.Forms.Padding(0);
             this.lb_gioitinh.Name = "lb_gioitinh";
-            this.lb_gioitinh.Size = new System.Drawing.Size(125, 50);
+            this.lb_gioitinh.Size = new System.Drawing.Size(167, 62);
             this.lb_gioitinh.TabIndex = 0;
             // 
             // lb_sinhnhat
@@ -428,10 +453,10 @@
         "12"};
             this.lb_sinhnhat.AA_title = "Sinh nhat";
             this.lb_sinhnhat.BackColor = System.Drawing.Color.Transparent;
-            this.lb_sinhnhat.Location = new System.Drawing.Point(37, 147);
+            this.lb_sinhnhat.Location = new System.Drawing.Point(49, 181);
             this.lb_sinhnhat.Margin = new System.Windows.Forms.Padding(0);
             this.lb_sinhnhat.Name = "lb_sinhnhat";
-            this.lb_sinhnhat.Size = new System.Drawing.Size(240, 50);
+            this.lb_sinhnhat.Size = new System.Drawing.Size(320, 62);
             this.lb_sinhnhat.TabIndex = 1;
             // 
             // tb_nickname
@@ -439,18 +464,20 @@
             this.tb_nickname.BackColor = System.Drawing.SystemColors.Control;
             this.tb_nickname.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tb_nickname.Font = new System.Drawing.Font("JetBrains Mono NL", 8.999999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.tb_nickname.Location = new System.Drawing.Point(376, 128);
+            this.tb_nickname.Location = new System.Drawing.Point(501, 158);
+            this.tb_nickname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tb_nickname.Name = "tb_nickname";
-            this.tb_nickname.Size = new System.Drawing.Size(130, 16);
+            this.tb_nickname.Size = new System.Drawing.Size(173, 20);
             this.tb_nickname.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(347, 150);
+            this.label1.Location = new System.Drawing.Point(463, 185);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(200, 2);
+            this.label1.Size = new System.Drawing.Size(267, 2);
             this.label1.TabIndex = 2;
             // 
             // lb_nickname
@@ -458,18 +485,20 @@
             this.lb_nickname.AutoSize = true;
             this.lb_nickname.BackColor = System.Drawing.Color.Transparent;
             this.lb_nickname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.lb_nickname.Location = new System.Drawing.Point(347, 109);
+            this.lb_nickname.Location = new System.Drawing.Point(463, 134);
+            this.lb_nickname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_nickname.Name = "lb_nickname";
-            this.lb_nickname.Size = new System.Drawing.Size(73, 15);
+            this.lb_nickname.Size = new System.Drawing.Size(86, 18);
             this.lb_nickname.TabIndex = 2;
             this.lb_nickname.Text = "NickName";
             // 
             // pic_suatt
             // 
             this.pic_suatt.Image = global::HiBanhMi_v1_2.Properties.Resources.sua;
-            this.pic_suatt.Location = new System.Drawing.Point(518, 121);
+            this.pic_suatt.Location = new System.Drawing.Point(691, 149);
+            this.pic_suatt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pic_suatt.Name = "pic_suatt";
-            this.pic_suatt.Size = new System.Drawing.Size(23, 23);
+            this.pic_suatt.Size = new System.Drawing.Size(31, 28);
             this.pic_suatt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic_suatt.TabIndex = 10;
             this.pic_suatt.TabStop = false;
@@ -486,9 +515,10 @@
             this.bt_Capnhat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_Capnhat.Font = new System.Drawing.Font("JetBrains Mono NL ExtraBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_Capnhat.ForeColor = System.Drawing.Color.Black;
-            this.bt_Capnhat.Location = new System.Drawing.Point(582, 565);
+            this.bt_Capnhat.Location = new System.Drawing.Point(776, 695);
+            this.bt_Capnhat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bt_Capnhat.Name = "bt_Capnhat";
-            this.bt_Capnhat.Size = new System.Drawing.Size(150, 63);
+            this.bt_Capnhat.Size = new System.Drawing.Size(200, 78);
             this.bt_Capnhat.TabIndex = 7;
             this.bt_Capnhat.Text = "nutCustom1";
             this.bt_Capnhat.TextColor = System.Drawing.Color.Black;
@@ -504,9 +534,10 @@
             this.pic_suaavata.BorderSize = 2;
             this.pic_suaavata.GradientAngle = 90F;
             this.pic_suaavata.Image = global::HiBanhMi_v1_2.Properties.Resources.camera;
-            this.pic_suaavata.Location = new System.Drawing.Point(280, 144);
+            this.pic_suaavata.Location = new System.Drawing.Point(373, 177);
+            this.pic_suaavata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pic_suaavata.Name = "pic_suaavata";
-            this.pic_suaavata.Size = new System.Drawing.Size(51, 51);
+            this.pic_suaavata.Size = new System.Drawing.Size(68, 68);
             this.pic_suaavata.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic_suaavata.TabIndex = 9;
             this.pic_suaavata.TabStop = false;
@@ -522,28 +553,22 @@
             this.pic_avata.BorderRadius = 40;
             this.pic_avata.BorderSize = 2;
             this.pic_avata.GradientAngle = 90F;
-            this.pic_avata.Location = new System.Drawing.Point(194, 62);
+            this.pic_avata.Location = new System.Drawing.Point(259, 76);
+            this.pic_avata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pic_avata.Name = "pic_avata";
-            this.pic_avata.Size = new System.Drawing.Size(133, 133);
+            this.pic_avata.Size = new System.Drawing.Size(177, 177);
             this.pic_avata.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic_avata.TabIndex = 8;
             this.pic_avata.TabStop = false;
             // 
-            // lb_thongbao
-            // 
-            this.lb_thongbao.AutoSize = true;
-            this.lb_thongbao.Location = new System.Drawing.Point(54, 173);
-            this.lb_thongbao.Name = "lb_thongbao";
-            this.lb_thongbao.Size = new System.Drawing.Size(35, 13);
-            this.lb_thongbao.TabIndex = 1;
-            this.lb_thongbao.Text = "label4";
-            // 
             // profile
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(787, 640);
+            this.ClientSize = new System.Drawing.Size(1049, 788);
+            this.Controls.Add(this.pn_doipass);
             this.Controls.Add(this.pic_suatt);
+            this.Controls.Add(this.bt_doipass);
             this.Controls.Add(this.bt_Capnhat);
             this.Controls.Add(this.pic_suaavata);
             this.Controls.Add(this.pic_avata);
@@ -552,6 +577,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lb_nickname);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "profile";
             this.Text = "profile";
             this.panel1.ResumeLayout(false);

@@ -1,16 +1,16 @@
-Welcome
+Very Glad to Welcome You
 Account
 Email
 Password
-Confirm Now
+Please Confirm Immediately
 Account Already Exists!
 LOGIN
-SIGN UP
-Something Is Missing?
+REGISTER
+Something is Missing?
 Account Does Not Exist!
-Password Is Too Short!
+Password is Too Short!
 Successfully Registered!
-Wrong Password!
+Incorrect Password!
 FORGOT PASSWORD
 New Password
 Please Confirm Email!
@@ -19,27 +19,42 @@ Password Changed Successfully!
 CHECK
 CONFIRM
 Show Password
-Create A New Password!
+Please Create a New Password!
 Email Already Exists!
 Home
 Menu
 Favorites
 History
 Settings
-Welcome To
-Hi Banh Mi
-% Off
+Welcome to
+Hi Bread
+% Discount
 All
-Reviews
+Ratings
 Bread
 Coffee
-Drinks
+Beverages
 Language
 Theme
 Account
 Choose Theme
 Choose Language
-Your Selected Language Is:
-Your Selected Theme Is:
-You Need To Restart The Program To Apply New Changes
+Your chosen language is:
+Your chosen theme is:
+You need to restart the program to apply the new changes
 Note
+Nickname
+Full Name
+Address
+Phone Number
+Gender
+Male
+Female
+Birthday
+Update
+Other
+Old Password
+New Password
+Re-enter Password
+Change Password
+Passwords Do Not Match

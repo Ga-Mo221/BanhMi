@@ -35,11 +35,34 @@ namespace HiBanhMi_v1_2.Forms
             if (bt_Capnhat.Text == NN.nn[19])
             {
                 bt_Capnhat.Text = NN.nn[53];
-                panel1.Enabled = false ;
+                panel1.Enabled = false;
                 tb_nickname.ReadOnly = true;
                 pn_doipass.Visible = false;
                 bt_doipass.Text = NN.nn[58];
-                MessageBox.Show($"{NN.nn[43]}", $"{NN.nn[44]}", MessageBoxButtons.OK);
+
+                // xuly
+                if (tb_nickname.Text != uson.users.nickname || tb_hoten.Text != uson.users.hoten || tb_sdt.Text != uson.users.sdt || tb_diachi.Text != uson.users.diachi || lb_sinhnhat.AA_sinhnhat != uson.users.sinhnhat || lb_gioitinh.AA_gioitinh != uson.users.gioitinh)
+                {
+                    foreach (user us in userlist.users)
+                    {
+                        if (tkon.Tkc == us.taikhoan)
+                        {
+                            us.nickname = tb_nickname.Text;
+                            us.hoten = tb_hoten.Text;
+                            us.sdt = tb_sdt.Text;
+                            us.diachi = tb_diachi.Text;
+                            us.sinhnhat = lb_sinhnhat.AA_sinhnhat;
+                            us.gioitinh = lb_gioitinh.AA_gioitinh;
+                            
+                            uson.users = new user(us);
+                            Console.WriteLine("gan xong");
+                        }
+                    }
+                }
+                GhiFile ghi = new GhiFile();
+                ghi.userprofile(userlist.users);
+                Console.WriteLine("ghi thanh cong");
+                //
             }
             else
             {
@@ -55,8 +78,12 @@ namespace HiBanhMi_v1_2.Forms
 
             if (currentUser != null)
             {
-                FormMain fm = new FormMain();
-                fm.tcn.AA_anhdaidien = Image.FromFile(img.getpathImg(uson.users.avata));
+                FormMain fm = Application.OpenForms.OfType<FormMain>().FirstOrDefault();
+                if (fm != null)
+                {
+                    fm.tcn.AA_anhdaidien = img.LoadImageWithoutLocking(img.getpathImg(uson.users.avata));
+                    fm.Refresh();
+                }
             }
         }
 
@@ -66,6 +93,7 @@ namespace HiBanhMi_v1_2.Forms
             panel1.Enabled = true;
             tb_nickname.ReadOnly = false;   
         }
+        
         private void bt_doipass_Click(object sender, EventArgs e)
         {
             if (bt_doipass.Text == NN.nn[58]) 
@@ -75,12 +103,24 @@ namespace HiBanhMi_v1_2.Forms
                 bt_doipass.Text = NN.nn[19]; 
             }else if (bt_doipass.Text == NN.nn[19])
             {
-                if (tb_mkCu.AA_Content.Length == 0 )
+                if (tb_mkCu.AA_Content.Length == 0)
+                {
+                    lb_thongbao.Text = NN.nn[8];
+                    lb_thongbao.ForeColor = Color.Red;
                     return;
+                }
                 if (tb_mkmoi.AA_Content.Length == 0)
-                    return;
+                {
+                    lb_thongbao.Text = NN.nn[8];
+                    lb_thongbao.ForeColor = Color.Red;
+                    return; 
+                }
                 if (tb_xacnhanmkmoi.AA_Content.Length == 0)
-                    return;
+                {
+                    lb_thongbao.Text = NN.nn[8];
+                    lb_thongbao.ForeColor = Color.Red;
+                    return; 
+                }
                 if (tb_mkCu.AA_Content != tkon.Mkc)
                 {
                     lb_thongbao.Text = NN.nn[12];
@@ -108,6 +148,8 @@ namespace HiBanhMi_v1_2.Forms
                         tkon.Mkc = tb_mkmoi.AA_Content;
                         GhiFile ghi = new GhiFile();
                         ghi.Taikhoan(tk.TK);
+                        lb_thongbao.Text = NN.nn[60];
+                        lb_thongbao.ForeColor = Color.Green;
                     }
                 }
             }

@@ -1,4 +1,6 @@
 Chưa có tk,null,null,null,null,null,null,null
-1,tenadmin,admingod,adminsdt,nam,admindc,adminsn,1.png
+1,Nguyễn Văn Hậu,Hau pe ti,0335926694,nam,Đại Lộc, Quảng Nam,22-1-2001,1.jpg
 hoai,null,null,null,null,null,null,newacc.png
 hau,null,null,null,null,null,null,newacc.png
+bindepzai,null,null,null,null,null,null,newacc.png
+thiet,null,null,null,null,null,null,newacc.png
