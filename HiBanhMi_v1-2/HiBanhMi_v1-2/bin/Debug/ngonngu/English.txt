@@ -1,0 +1,45 @@
+Welcome
+Account
+Email
+Password
+Confirm Now
+Account Already Exists!
+LOGIN
+SIGN UP
+Something Is Missing?
+Account Does Not Exist!
+Password Is Too Short!
+Successfully Registered!
+Wrong Password!
+FORGOT PASSWORD
+New Password
+Please Confirm Email!
+Email Not Registered!
+Password Changed Successfully!
+CHECK
+CONFIRM
+Show Password
+Create A New Password!
+Email Already Exists!
+Home
+Menu
+Favorites
+History
+Settings
+Welcome To
+Hi Banh Mi
+% Off
+All
+Reviews
+Bread
+Coffee
+Drinks
+Language
+Theme
+Account
+Choose Theme
+Choose Language
+Your Selected Language Is:
+Your Selected Theme Is:
+You Need To Restart The Program To Apply New Changes
+Note

@@ -11,3 +11,4 @@ D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.csproj.GenerateResource.cache
 D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.csproj.CoreCompileInputs.cache
 D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.exe
 D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi.pdb
+D:\BanhMi\HiBanhMi\HiBanhMi\obj\Debug\HiBanhMi_v1_1.texboxcustom.resources

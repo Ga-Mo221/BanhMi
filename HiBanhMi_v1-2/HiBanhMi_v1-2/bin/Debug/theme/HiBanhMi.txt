@@ -1,0 +1,10 @@
+#ffffff
+#e5e7fe
+#ab96f3
+#f87192
+#323141
+#ec6083
+#d9f4fb
+#fddef0
+#cbc7eb
+#f5f6f8

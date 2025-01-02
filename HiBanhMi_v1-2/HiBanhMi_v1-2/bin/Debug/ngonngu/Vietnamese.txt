@@ -1,0 +1,60 @@
+Rất Vui Được Đón Tiếp
+Tài Khoản
+Email
+Mật Khẩu
+Hãy Xác Nhận Ngay
+Tài Khoản Đã Tồn Tại!
+ĐĂNG NHẬP
+ĐĂNG KÝ
+Có Gì Đó Còn Thiếu?
+Tài Khoản Không Tồn Tại!
+Mật Khẩu Quá Ngắn Rồi!
+Đã Đăng Ký Thành Công!
+Sai Mật Khẩu!
+QUÊN MẬT KHẨU
+Mật Khẩu Mới
+Hãy Xác Nhận Email!
+Email Chưa Được Đăng Ký!
+Thay Đổi Mật Khẩu Thành Công!
+KIỂM TRA
+XÁC NHẬN
+Hiện Mật Khẩu
+Hãy Tạo Mật Khẩu Mới!
+Email Đã Tồn Tại!
+Trang Chủ
+Thực Đơn
+Yêu Thích
+Lịch Sử
+Cài Đặt
+Chào Mừng Đến Với
+Hi Bánh Mì
+% Giảm
+Tất Cả
+Đánh Giá
+Bánh Mì
+Cà Phê
+Giải Khát
+Ngôn Ngữ
+Chủ Đề
+Tài Khoản
+Chọn Chủ Đề
+Chọn Ngôn Ngữ
+Ngôn ngữ bạn đã chọn :
+Chủ đề bạn đã chọn là :
+Bạn cần khởi động lại chương trình để cập nhật thay đổi Mới
+Lưu Ý
+Biệt Danh
+Họ Tên
+Địa Chỉ
+Số Điện Thoại
+Giới Tính
+Nam 
+Nữ
+Sinh Nhật
+Cập Nhật
+Khác
+Mật Khẩu Cũ
+Mật Khẩu Mới
+Nhập lại Mật Khẩu
+Đổi Mật Khẩu
+Mật Khẩu không khớp

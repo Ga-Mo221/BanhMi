@@ -46,6 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Customs\Bo_GocWinform.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Customs\CusTomCOMBOBOX.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Customs\CusTomCOMBOBOX.Designer.cs">
+      <DependentUpon>CusTomCOMBOBOX.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customs\DiChuyenWindows.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -58,22 +67,93 @@
     <Compile Include="Customs\PictureBoxCustom.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Customs\SanPhamDanhGia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Customs\SanPhamDanhGia.Designer.cs">
+      <DependentUpon>SanPhamDanhGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customs\SanPhamGiamGia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Customs\SanPhamGiamGia.Designer.cs">
+      <DependentUpon>SanPhamGiamGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customs\SanPhamYeuThich.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Customs\SanPhamYeuThich.Designer.cs">
+      <DependentUpon>SanPhamYeuThich.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customs\texboxcustom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Customs\texboxcustom.Designer.cs">
+      <DependentUpon>texboxcustom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customs\ThanhChucNangChinh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Customs\ThanhChucNangChinh.Designer.cs">
+      <DependentUpon>ThanhChucNangChinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Datacode\addphonto.cs" />
+    <Compile Include="Datacode\OpenForm.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormHome.Designer.cs">
+      <DependentUpon>FormHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NewTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewTaiKhoan.Designer.cs">
+      <DependentUpon>NewTaiKhoan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="texboxcustom.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="texboxcustom.Designer.cs">
+    <EmbeddedResource Include="Customs\CusTomCOMBOBOX.resx">
+      <DependentUpon>CusTomCOMBOBOX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customs\SanPhamDanhGia.resx">
+      <DependentUpon>SanPhamDanhGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customs\SanPhamGiamGia.resx">
+      <DependentUpon>SanPhamGiamGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customs\SanPhamYeuThich.resx">
+      <DependentUpon>SanPhamYeuThich.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customs\texboxcustom.resx">
       <DependentUpon>texboxcustom.cs</DependentUpon>
-    </Compile>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customs\ThanhChucNangChinh.resx">
+      <DependentUpon>ThanhChucNangChinh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormHome.resx">
+      <DependentUpon>FormHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewTaiKhoan.resx">
+      <DependentUpon>NewTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -83,10 +163,8 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="texboxcustom.resx">
-      <DependentUpon>texboxcustom.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -101,22 +179,61 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AnhChucNang\backgroudmain.png" />
+    <Content Include="AnhChucNang\backgroundBoVien.png" />
     <Content Include="AnhChucNang\Chon.PNG" />
     <Content Include="AnhChucNang\diachi.png" />
+    <Content Include="AnhChucNang\dienthoai.png" />
+    <Content Include="AnhChucNang\gioitinh.png" />
     <Content Include="AnhChucNang\home.png" />
+    <Content Include="AnhChucNang\lich.png" />
     <Content Include="AnhChucNang\lichsu.png" />
+    <Content Include="AnhChucNang\list.png" />
     <Content Include="AnhChucNang\menu.png" />
+    <Content Include="AnhChucNang\muitenxuong.png" />
     <Content Include="AnhChucNang\sao.png" />
     <Content Include="AnhChucNang\setting.png" />
     <Content Include="AnhChucNang\sua.png" />
+    <Content Include="AnhChucNang\tieptheo.png" />
+    <Content Include="AnhChucNang\user.png" />
     <Content Include="AnhChucNang\xoa.png" />
     <Content Include="AnhChucNang\yeuthich.png" />
     <Content Include="AnhChucNang\yeuthichdo.png" />
     <Content Include="AnhDangNhap\An.PNG" />
+    <Content Include="AnhDangNhap\anhnenloimodau.PNG" />
     <Content Include="AnhDangNhap\Exit.PNG" />
+    <Content Include="AnhDangNhap\loimodau.PNG" />
     <Content Include="AnhDangNhap\Porter.PNG" />
     <Content Include="AnhDangNhap\ScaleMax.PNG" />
     <Content Include="AnhDangNhap\ScaleMin.PNG" />
+    <None Include="bin\Debug\iconChucNang\HomeC.PNG" />
+    <None Include="bin\Debug\iconChucNang\imgchuyen.PNG" />
+    <None Include="bin\Debug\iconChucNang\LichsuC.PNG" />
+    <None Include="bin\Debug\iconChucNang\MenuC.PNG" />
+    <None Include="bin\Debug\iconChucNang\SettingC.PNG" />
+    <None Include="bin\Debug\iconChucNang\YeuThichC.PNG" />
+    <None Include="bin\Debug\AnhChucNang\backgroudmain.png" />
+    <Content Include="iconChucNang\HomeC.PNG" />
+    <Content Include="iconChucNang\imgchuyen.PNG" />
+    <Content Include="iconChucNang\LichsuC.PNG" />
+    <Content Include="iconChucNang\MenuC.PNG" />
+    <Content Include="iconChucNang\SettingC.PNG" />
+    <Content Include="iconChucNang\YeuThichC.PNG" />
+    <None Include="bin\Debug\Avatar\use.png" />
+    <None Include="bin\Debug\AnhDangNhap\loimodau.PNG" />
+    <None Include="bin\Debug\AnhChucNang\diachi.png" />
+    <None Include="bin\Debug\AnhChucNang\dienthoai.png" />
+    <None Include="bin\Debug\AnhChucNang\gioitinh.png" />
+    <None Include="bin\Debug\AnhChucNang\tieptheo.png" />
+    <None Include="bin\Debug\AnhChucNang\user.png" />
+    <None Include="bin\Debug\AnhDangNhap\anhnenloimodau.PNG" />
+    <None Include="bin\Debug\AnhChucNang\list.png" />
+    <None Include="bin\Debug\AnhChucNang\muitenxuong.png" />
+    <None Include="bin\Debug\Gif\Hello.gif" />
+    <None Include="bin\Debug\AnhChucNang\sua.png" />
+    <None Include="bin\Debug\AnhDangNhap\lichsu.png" />
+    <None Include="bin\Debug\AnhDangNhap\Porter.PNG" />
+    <None Include="bin\Debug\AnhDangNhap\Exit.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
