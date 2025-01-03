@@ -78,6 +78,7 @@ namespace HiBanhMi_v1_2.Codes
                             if (us.taikhoan == uson.users.taikhoan)
                             {
                                 us.avata = newFileName;
+                                uson.users.avata = newFileName;
                             }
                         }
 

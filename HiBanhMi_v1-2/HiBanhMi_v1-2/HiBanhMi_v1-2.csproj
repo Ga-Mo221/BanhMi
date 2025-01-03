@@ -46,11 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Codes\BanhMi.cs" />
+    <Compile Include="Codes\caphe.cs" />
     <Compile Include="Codes\DocFile.cs" />
     <Compile Include="Codes\GhiFile.cs" />
+    <Compile Include="Codes\Giaikhat.cs" />
+    <Compile Include="Codes\GioHang.cs" />
     <Compile Include="Codes\img.cs" />
     <Compile Include="Codes\laytenfiletxt.cs" />
     <Compile Include="Codes\moform.cs" />
+    <Compile Include="Codes\sanpham.cs" />
     <Compile Include="Codes\TaiKhoan.cs" />
     <Compile Include="Codes\tkon.cs" />
     <Compile Include="Codes\THEME.cs" />
@@ -145,6 +150,12 @@
     <Compile Include="UseControl\gioitinh.Designer.cs">
       <DependentUpon>gioitinh.cs</DependentUpon>
     </Compile>
+    <Compile Include="UseControl\item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UseControl\item.Designer.cs">
+      <DependentUpon>item.cs</DependentUpon>
+    </Compile>
     <Compile Include="UseControl\sinhnhat.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -208,6 +219,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UseControl\gioitinh.resx">
       <DependentUpon>gioitinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseControl\item.resx">
+      <DependentUpon>item.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UseControl\sinhnhat.resx">
       <DependentUpon>sinhnhat.cs</DependentUpon>
@@ -314,6 +328,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\icon\camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icon\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icon\tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icon\danhgiavang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icon\3cham.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

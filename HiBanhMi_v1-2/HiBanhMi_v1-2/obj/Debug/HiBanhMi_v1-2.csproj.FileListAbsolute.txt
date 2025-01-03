@@ -46,3 +46,4 @@ D:\C_C++_C#\BanhMi\HiBanhMi_v1-2\HiBanhMi_v1-2\obj\Debug\HiBanhMi_v1-2.csproj.Co
 D:\C_C++_C#\BanhMi\HiBanhMi_v1-2\HiBanhMi_v1-2\obj\Debug\HiBanhMi_v1-2.exe
 D:\C_C++_C#\BanhMi\HiBanhMi_v1-2\HiBanhMi_v1-2\obj\Debug\HiBanhMi_v1-2.pdb
 D:\C_C++_C#\BanhMi\HiBanhMi_v1-2\HiBanhMi_v1-2\bin\Debug\HiBanhMi_v1-2.pdb
+D:\BanhMi\HiBanhMi_v1-2\HiBanhMi_v1-2\obj\Debug\HiBanhMi_v1_2.UseControl.item.resources

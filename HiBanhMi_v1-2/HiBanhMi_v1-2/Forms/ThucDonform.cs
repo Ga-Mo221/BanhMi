@@ -15,6 +15,11 @@ namespace HiBanhMi_v1_2.Forms
         public ThucDonform()
         {
             InitializeComponent();
+            item1.THEMckick += Item1_THEMckick;
+        }
+
+        private void Item1_THEMckick(object sender, EventArgs e)
+        {
         }
     }
 }

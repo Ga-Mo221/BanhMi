@@ -190,6 +190,6 @@ namespace HiBanhMi_v1_2.Forms
         {
             chonchucnang("setting");
             openf.Mo(pn_hienthi, acctiveform, new Settingform());
-        }       
+        }
     }
 }

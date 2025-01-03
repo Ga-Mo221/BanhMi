@@ -32,6 +32,13 @@ namespace HiBanhMi_v1_2
             tb_qmk_mk.Visible = false;
             checkBox3.Visible = false;
             bt_lui.Visible = false;
+
+            pn_qmk.Location = new Point(0, 0);
+
+
+            //---------------------------------
+            tb_dn_taikhoan.AA_Content = "1";//|
+            tb_dn_matkhau.AA_Content = "1";// |
         }
         private void DangNhap_Load(object sender, EventArgs e)
         {
