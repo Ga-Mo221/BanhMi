@@ -37,6 +37,8 @@
             this.lb_ngonngu = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lb_theme = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lb_dangxuat = new System.Windows.Forms.Label();
             this.pn_settingcon = new System.Windows.Forms.Panel();
             this.bo_gocWinform1 = new Bo_GocWinfrom.Bo_gocWinform();
             this.flowLayoutPanel1.SuspendLayout();
@@ -59,6 +61,8 @@
             this.flowLayoutPanel1.Controls.Add(this.lb_ngonngu);
             this.flowLayoutPanel1.Controls.Add(this.label4);
             this.flowLayoutPanel1.Controls.Add(this.lb_theme);
+            this.flowLayoutPanel1.Controls.Add(this.label5);
+            this.flowLayoutPanel1.Controls.Add(this.lb_dangxuat);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(40, 40);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
@@ -136,6 +140,26 @@
             this.lb_theme.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lb_theme.Click += new System.EventHandler(this.lb_theme_Click);
             // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(3, 175);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(193, 1);
+            this.label5.TabIndex = 3;
+            // 
+            // lb_dangxuat
+            // 
+            this.lb_dangxuat.BackColor = System.Drawing.Color.Transparent;
+            this.lb_dangxuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_dangxuat.Location = new System.Drawing.Point(3, 176);
+            this.lb_dangxuat.Name = "lb_dangxuat";
+            this.lb_dangxuat.Size = new System.Drawing.Size(190, 33);
+            this.lb_dangxuat.TabIndex = 2;
+            this.lb_dangxuat.Text = "dangxuat";
+            this.lb_dangxuat.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lb_dangxuat.Click += new System.EventHandler(this.lb_dangxuat_Click_1);
+            // 
             // pn_settingcon
             // 
             this.pn_settingcon.Dock = System.Windows.Forms.DockStyle.Right;
@@ -168,6 +192,11 @@
 
         }
 
+        private void Lb_dangxuat_Click(object sender, System.EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
+
         #endregion
 
         private Bo_GocWinfrom.Bo_gocWinform bo_gocWinform1;
@@ -181,5 +210,7 @@
         private System.Windows.Forms.Label lb_theme;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lb_dangxuat;
     }
 }

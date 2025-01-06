@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\BanhMi\\HiBanhMi_v1-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E3A94BC-0C92-4328-AB7F-15CC8E100D23}|HiBanhMi_v1-2\\HiBanhMi_v1-2.csproj|d:\\banhmi\\hibanhmi_v1-2\\hibanhmi_v1-2\\forms\\thucdonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9E3A94BC-0C92-4328-AB7F-15CC8E100D23}|HiBanhMi_v1-2\\HiBanhMi_v1-2.csproj|solutionrelative:hibanhmi_v1-2\\forms\\thucdonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9E3A94BC-0C92-4328-AB7F-15CC8E100D23}|HiBanhMi_v1-2\\HiBanhMi_v1-2.csproj|d:\\banhmi\\hibanhmi_v1-2\\hibanhmi_v1-2\\codes\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3A94BC-0C92-4328-AB7F-15CC8E100D23}|HiBanhMi_v1-2\\HiBanhMi_v1-2.csproj|solutionrelative:hibanhmi_v1-2\\codes\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E3A94BC-0C92-4328-AB7F-15CC8E100D23}|HiBanhMi_v1-2\\HiBanhMi_v1-2.csproj|d:\\banhmi\\hibanhmi_v1-2\\hibanhmi_v1-2\\forms\\thucdonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E3A94BC-0C92-4328-AB7F-15CC8E100D23}|HiBanhMi_v1-2\\HiBanhMi_v1-2.csproj|solutionrelative:hibanhmi_v1-2\\forms\\thucdonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E3A94BC-0C92-4328-AB7F-15CC8E100D23}|HiBanhMi_v1-2\\HiBanhMi_v1-2.csproj|d:\\banhmi\\hibanhmi_v1-2\\hibanhmi_v1-2\\codes\\docfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3A94BC-0C92-4328-AB7F-15CC8E100D23}|HiBanhMi_v1-2\\HiBanhMi_v1-2.csproj|solutionrelative:hibanhmi_v1-2\\codes\\docfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3A94BC-0C92-4328-AB7F-15CC8E100D23}|HiBanhMi_v1-2\\HiBanhMi_v1-2.csproj|d:\\banhmi\\hibanhmi_v1-2\\hibanhmi_v1-2\\codes\\banhmi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3A94BC-0C92-4328-AB7F-15CC8E100D23}|HiBanhMi_v1-2\\HiBanhMi_v1-2.csproj|solutionrelative:hibanhmi_v1-2\\codes\\banhmi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3A94BC-0C92-4328-AB7F-15CC8E100D23}|HiBanhMi_v1-2\\HiBanhMi_v1-2.csproj|d:\\banhmi\\hibanhmi_v1-2\\hibanhmi_v1-2\\codes\\thanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3A94BC-0C92-4328-AB7F-15CC8E100D23}|HiBanhMi_v1-2\\HiBanhMi_v1-2.csproj|solutionrelative:hibanhmi_v1-2\\codes\\thanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3A94BC-0C92-4328-AB7F-15CC8E100D23}|HiBanhMi_v1-2\\HiBanhMi_v1-2.csproj|d:\\banhmi\\hibanhmi_v1-2\\hibanhmi_v1-2\\codes\\ghifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3A94BC-0C92-4328-AB7F-15CC8E100D23}|HiBanhMi_v1-2\\HiBanhMi_v1-2.csproj|solutionrelative:hibanhmi_v1-2\\codes\\ghifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,32 +39,72 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ThucDonform.cs",
-              "DocumentMoniker": "D:\\BanhMi\\HiBanhMi_v1-2\\HiBanhMi_v1-2\\Forms\\ThucDonform.cs",
-              "RelativeDocumentMoniker": "HiBanhMi_v1-2\\Forms\\ThucDonform.cs",
-              "ToolTip": "D:\\BanhMi\\HiBanhMi_v1-2\\HiBanhMi_v1-2\\Forms\\ThucDonform.cs",
-              "RelativeToolTip": "HiBanhMi_v1-2\\Forms\\ThucDonform.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Title": "DocFile.cs",
+              "DocumentMoniker": "D:\\BanhMi\\HiBanhMi_v1-2\\HiBanhMi_v1-2\\Codes\\DocFile.cs",
+              "RelativeDocumentMoniker": "HiBanhMi_v1-2\\Codes\\DocFile.cs",
+              "ToolTip": "D:\\BanhMi\\HiBanhMi_v1-2\\HiBanhMi_v1-2\\Codes\\DocFile.cs",
+              "RelativeToolTip": "HiBanhMi_v1-2\\Codes\\DocFile.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAowLIAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T18:31:50.388Z",
+              "WhenOpened": "2025-01-06T09:21:13.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ThucDonform.cs [Design]",
-              "DocumentMoniker": "D:\\BanhMi\\HiBanhMi_v1-2\\HiBanhMi_v1-2\\Forms\\ThucDonform.cs",
-              "RelativeDocumentMoniker": "HiBanhMi_v1-2\\Forms\\ThucDonform.cs",
-              "ToolTip": "D:\\BanhMi\\HiBanhMi_v1-2\\HiBanhMi_v1-2\\Forms\\ThucDonform.cs [Design]",
-              "RelativeToolTip": "HiBanhMi_v1-2\\Forms\\ThucDonform.cs [Design]",
+              "Title": "sanpham.cs",
+              "DocumentMoniker": "D:\\BanhMi\\HiBanhMi_v1-2\\HiBanhMi_v1-2\\Codes\\sanpham.cs",
+              "RelativeDocumentMoniker": "HiBanhMi_v1-2\\Codes\\sanpham.cs",
+              "ToolTip": "D:\\BanhMi\\HiBanhMi_v1-2\\HiBanhMi_v1-2\\Codes\\sanpham.cs",
+              "RelativeToolTip": "HiBanhMi_v1-2\\Codes\\sanpham.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwDAAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T18:31:30.234Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-06T09:20:31.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BanhMi.cs",
+              "DocumentMoniker": "D:\\BanhMi\\HiBanhMi_v1-2\\HiBanhMi_v1-2\\Codes\\BanhMi.cs",
+              "RelativeDocumentMoniker": "HiBanhMi_v1-2\\Codes\\BanhMi.cs",
+              "ToolTip": "D:\\BanhMi\\HiBanhMi_v1-2\\HiBanhMi_v1-2\\Codes\\BanhMi.cs",
+              "RelativeToolTip": "HiBanhMi_v1-2\\Codes\\BanhMi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T09:19:54.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GhiFile.cs",
+              "DocumentMoniker": "D:\\BanhMi\\HiBanhMi_v1-2\\HiBanhMi_v1-2\\Codes\\GhiFile.cs",
+              "RelativeDocumentMoniker": "HiBanhMi_v1-2\\Codes\\GhiFile.cs",
+              "ToolTip": "D:\\BanhMi\\HiBanhMi_v1-2\\HiBanhMi_v1-2\\Codes\\GhiFile.cs",
+              "RelativeToolTip": "HiBanhMi_v1-2\\Codes\\GhiFile.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAuwJIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T09:01:54.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ThanhToan.cs",
+              "DocumentMoniker": "D:\\BanhMi\\HiBanhMi_v1-2\\HiBanhMi_v1-2\\Codes\\ThanhToan.cs",
+              "RelativeDocumentMoniker": "HiBanhMi_v1-2\\Codes\\ThanhToan.cs",
+              "ToolTip": "D:\\BanhMi\\HiBanhMi_v1-2\\HiBanhMi_v1-2\\Codes\\ThanhToan.cs",
+              "RelativeToolTip": "HiBanhMi_v1-2\\Codes\\ThanhToan.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAwwD8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T08:48:34.34Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 101,
+          "DockedWidth": 299,
           "SelectedChildIndex": -1,
           "Children": [
             {

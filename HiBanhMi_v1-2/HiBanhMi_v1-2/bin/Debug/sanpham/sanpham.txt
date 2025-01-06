@@ -1,0 +1,9 @@
+BM_01,newBM.JPG,Bánh mì thịt nướng,20000,0,1,1,0,0
+BM_02,newBM.JPG,Bánh mì heo quay,20000,10,1,2,0,0
+BM_03,newBM.JPG,Bánh mì chả,20000,40,1,3,0,0
+CP_01,newCP.JPG,Cà phê cức chồn,20000,20,1,0,0,0
+CP_02,newCP.JPG,Cà phê đen,20000,10,1,0,0,0
+CP_03,newCP.JPG,Cà phê sửa,20000,0,1,0,0,0
+GK_01,newGK.JPG,coca cola,20000,0,1,0,0,0
+GK_02,newGK.JPG,pepsi,20000,30,1,0,0,0
+GK_03,newGK.JPG,sting,20000,20,1,0,0,0

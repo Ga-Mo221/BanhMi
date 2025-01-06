@@ -130,6 +130,9 @@
   <data name="cuoinherang" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icon\cuoinherang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="timkiem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\icon\timkiem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icon\menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,14 +145,17 @@
   <data name="list" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icon\list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="anhdangnhap" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\porterdangnhap\anhdangnhap.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\icon\Exit.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lich" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icon\lich.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="danhgiavang" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icon\danhgiavang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\icon\tang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icon\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,8 +166,8 @@
   <data name="icontheman" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icon\icontheman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\icon\Exit.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="giam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\icon\giam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tieptheo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icon\tieptheo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,8 +184,14 @@
   <data name="dienthoai" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icon\dienthoai.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="likeden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\icon\likeden.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tick" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icon\tick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="likedo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\icon\likedo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="coffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icon\coffee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,8 +199,8 @@
   <data name="suynghi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icon\suynghi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="all" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\icon\all.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="anhdangnhap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\porterdangnhap\anhdangnhap.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ashipper" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icontrangtri\ashipper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,11 +208,20 @@
   <data name="obanhmibaybong" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icontrangtri\obanhmibaybong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="xoa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\icon\xoa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="like" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icon\like.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="3cham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\icon\3cham.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="muitenphai" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icon\muitenphai.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="all" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\icon\all.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cola" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icon\cola.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,7 +232,7 @@
   <data name="banhmi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icon\banhmi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="3cham" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\icon\3cham.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="An" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\icon\An.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

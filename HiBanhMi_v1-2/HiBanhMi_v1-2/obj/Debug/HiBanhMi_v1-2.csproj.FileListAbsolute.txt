@@ -47,3 +47,11 @@ D:\C_C++_C#\BanhMi\HiBanhMi_v1-2\HiBanhMi_v1-2\obj\Debug\HiBanhMi_v1-2.exe
 D:\C_C++_C#\BanhMi\HiBanhMi_v1-2\HiBanhMi_v1-2\obj\Debug\HiBanhMi_v1-2.pdb
 D:\C_C++_C#\BanhMi\HiBanhMi_v1-2\HiBanhMi_v1-2\bin\Debug\HiBanhMi_v1-2.pdb
 D:\BanhMi\HiBanhMi_v1-2\HiBanhMi_v1-2\obj\Debug\HiBanhMi_v1_2.UseControl.item.resources
+D:\BanhMi\HiBanhMi_v1-2\HiBanhMi_v1-2\obj\Debug\HiBanhMi_v1_2.UseControl.thanhchonsp.resources
+D:\BanhMi\HiBanhMi_v1-2\HiBanhMi_v1-2\obj\Debug\HiBanhMi_v1_2.UseControl.thanhtimkiem.resources
+D:\BanhMi\HiBanhMi_v1-2\HiBanhMi_v1-2\obj\Debug\HiBanhMi_v1_2.UseControl.itemingiohang.resources
+D:\BanhMi\HiBanhMi_v1-2\HiBanhMi_v1-2\obj\Debug\HiBanhMi_v1_2.Forms.giohang.resources
+D:\BanhMi\HiBanhMi_v1-2\HiBanhMi_v1-2\obj\Debug\HiBanhMi_v1_2.UseControl.ItemTrongGioHang.resources
+D:\BanhMi\HiBanhMi_v1-2\HiBanhMi_v1-2\obj\Debug\HiBanhMi_v1_2.Forms.chitietdonhang.resources
+D:\BanhMi\HiBanhMi_v1-2\HiBanhMi_v1-2\obj\Debug\HiBanhMi_v1_2.UseControl.Lsdh.resources
+D:\BanhMi\HiBanhMi_v1-2\HiBanhMi_v1-2\obj\Debug\HiBanhMi_v1_2.UseControl.Ctdh.resources

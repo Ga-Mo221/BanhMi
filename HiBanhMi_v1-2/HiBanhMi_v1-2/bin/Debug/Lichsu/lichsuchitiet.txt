@@ -1,0 +1,10 @@
+WGIIK7JX7J,hau,BM_01,newBM.JPG,Bánh mì thịt nướng,1,20000,20000
+Z41D05ZOHG,hau,BM_01,newBM.JPG,Bánh mì thịt nướng,1,20000,20000
+YQMSB1N6CO,hau,BM_01,newBM.JPG,Bánh mì thịt nướng,1,20000,20000
+612WLWA0SY,hau,BM_01,newBM.JPG,Bánh mì thịt nướng,1,20000,20000
+EW4X8UZ8PG,hau,CP_03,newCP.JPG,Cà phê sửa,1,20000,20000
+EW4X8UZ8PG,hau,GK_01,newGK.JPG,coca cola,1,20000,20000
+EW4X8UZ8PG,hau,CP_01,newCP.JPG,Cà phê cức chồn,1,20000,16000
+GL1P9CA2Y3,hau,BM_01,newBM.JPG,Bánh mì thịt nướng,1,20000,20000
+GL1P9CA2Y3,hau,BM_02,newBM.JPG,Bánh mì heo quay,2,20000,18000
+GL1P9CA2Y3,hau,BM_03,newBM.JPG,Bánh mì chả,3,20000,12000

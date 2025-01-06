@@ -48,19 +48,26 @@
   <ItemGroup>
     <Compile Include="Codes\BanhMi.cs" />
     <Compile Include="Codes\caphe.cs" />
+    <Compile Include="Codes\danhgia.cs" />
     <Compile Include="Codes\DocFile.cs" />
     <Compile Include="Codes\GhiFile.cs" />
     <Compile Include="Codes\Giaikhat.cs" />
     <Compile Include="Codes\GioHang.cs" />
     <Compile Include="Codes\img.cs" />
     <Compile Include="Codes\laytenfiletxt.cs" />
+    <Compile Include="Codes\lichsudonhang.cs" />
+    <Compile Include="Codes\lichsusanpham.cs" />
+    <Compile Include="Codes\loaditem.cs" />
+    <Compile Include="Codes\loadlichsu.cs" />
     <Compile Include="Codes\moform.cs" />
     <Compile Include="Codes\sanpham.cs" />
     <Compile Include="Codes\TaiKhoan.cs" />
+    <Compile Include="Codes\ThanhToan.cs" />
     <Compile Include="Codes\tkon.cs" />
     <Compile Include="Codes\THEME.cs" />
     <Compile Include="Codes\user.cs" />
     <Compile Include="Codes\uson.cs" />
+    <Compile Include="Codes\yeuthich.cs" />
     <Compile Include="CusTomFile\Bo_GocWinform.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -82,11 +89,23 @@
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\chitietdonhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\chitietdonhang.Designer.cs">
+      <DependentUpon>chitietdonhang.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\giohang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\giohang.Designer.cs">
+      <DependentUpon>giohang.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Homeform.cs">
       <SubType>Form</SubType>
@@ -144,6 +163,12 @@
     <Compile Include="UseControl\chonthucdon.Designer.cs">
       <DependentUpon>chonthucdon.cs</DependentUpon>
     </Compile>
+    <Compile Include="UseControl\Ctdh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UseControl\Ctdh.Designer.cs">
+      <DependentUpon>Ctdh.cs</DependentUpon>
+    </Compile>
     <Compile Include="UseControl\gioitinh.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -155,6 +180,24 @@
     </Compile>
     <Compile Include="UseControl\item.Designer.cs">
       <DependentUpon>item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseControl\itemingiohang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UseControl\itemingiohang.Designer.cs">
+      <DependentUpon>itemingiohang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseControl\ItemTrongGioHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UseControl\ItemTrongGioHang.Designer.cs">
+      <DependentUpon>ItemTrongGioHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseControl\Lsdh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UseControl\Lsdh.Designer.cs">
+      <DependentUpon>Lsdh.cs</DependentUpon>
     </Compile>
     <Compile Include="UseControl\sinhnhat.cs">
       <SubType>UserControl</SubType>
@@ -168,17 +211,35 @@
     <Compile Include="UseControl\TextBox_DangNhap.Designer.cs">
       <DependentUpon>TextBox_DangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="UseControl\thanhchonsp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UseControl\thanhchonsp.Designer.cs">
+      <DependentUpon>thanhchonsp.cs</DependentUpon>
+    </Compile>
     <Compile Include="UseControl\ThanhChucNang.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UseControl\ThanhChucNang.Designer.cs">
       <DependentUpon>ThanhChucNang.cs</DependentUpon>
     </Compile>
+    <Compile Include="UseControl\thanhtimkiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UseControl\thanhtimkiem.Designer.cs">
+      <DependentUpon>thanhtimkiem.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\chitietdonhang.resx">
+      <DependentUpon>chitietdonhang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\giohang.resx">
+      <DependentUpon>giohang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Homeform.resx">
       <DependentUpon>Homeform.cs</DependentUpon>
@@ -217,11 +278,23 @@
     <EmbeddedResource Include="UseControl\chonthucdon.resx">
       <DependentUpon>chonthucdon.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UseControl\Ctdh.resx">
+      <DependentUpon>Ctdh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UseControl\gioitinh.resx">
       <DependentUpon>gioitinh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UseControl\item.resx">
       <DependentUpon>item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseControl\itemingiohang.resx">
+      <DependentUpon>itemingiohang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseControl\ItemTrongGioHang.resx">
+      <DependentUpon>ItemTrongGioHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseControl\Lsdh.resx">
+      <DependentUpon>Lsdh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UseControl\sinhnhat.resx">
       <DependentUpon>sinhnhat.cs</DependentUpon>
@@ -229,8 +302,14 @@
     <EmbeddedResource Include="UseControl\TextBox_DangNhap.resx">
       <DependentUpon>TextBox_DangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UseControl\thanhchonsp.resx">
+      <DependentUpon>thanhchonsp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UseControl\ThanhChucNang.resx">
       <DependentUpon>ThanhChucNang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseControl\thanhtimkiem.resx">
+      <DependentUpon>thanhtimkiem.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -340,6 +419,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\icon\3cham.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icon\timkiem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icon\xoa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icon\tang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icon\giam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icon\likeden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icon\likedo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icon\An.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,6 @@
-﻿internal class sanpham
+﻿using System.Collections.Generic;
+
+internal class sanpham
 {
     public string id { get; set; }
     public string img { get; set; }
@@ -6,7 +8,7 @@
     public double giagoc { get; set; }
     public int sale { get; set; }
     public int soluong { get; set; }
-    public double giacuoi { get; private set; }
+    public double giacuoi { get; set; }
 
     // Tính giá cuối cùng (tối ưu hóa với thuộc tính chỉ đọc)
     public double Gia()
@@ -44,6 +46,12 @@
     // Ghi đè phương thức ToString
     public override string ToString()
     {
-        return $"{id},{img},{ten},{giagoc},{sale},{soluong},{giacuoi}";
+        return $"{id},{img},{ten},{giagoc},{sale},{soluong}";
     }
+
+}
+
+internal static class listsp
+{
+    public static List<sanpham> sanphams = new List<sanpham>() ;
 }

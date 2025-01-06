@@ -13,47 +13,84 @@ namespace HiBanhMi_v1_2.Forms
 {
     public partial class Homeform : Form
     {
+        loaditem litem = new loaditem();
+        private FormMain formMain;
+        DocFile doc = new DocFile();
         public Homeform()
         {
             InitializeComponent();
-
-
+            this.Size = new Size(1080, 720);
+            
+            listdg.dg.Clear();
+            doc.DanhGia(listdg.dg);
+            
             // setup ngon ngu
             setngonngu();
             // setup mau
             setcolor();
-
+            KiemTraSanPhamGiamGia();
 
             thucdon1.ChonthucdonClick += Thucdon1_ChonthucdonClick;
             thucdon2.ChonthucdonClick += Thucdon2_ChonthucdonClick;
             thucdon3.ChonthucdonClick += Thucdon3_ChonthucdonClick;
             thucdon4.ChonthucdonClick += Thucdon4_ChonthucdonClick;
+
+            litem.Load(fpn_home, "TC");
         }
+        private void bt_giohang_Click(object sender, EventArgs e)
+        {
+            giohang gh = new giohang();
+            gh.ShowDialog();
+        }
+
+        private void bt_danhgia_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+
 
         private void Thucdon4_ChonthucdonClick(object sender, EventArgs e)
         {
             xulychonthucdon(4);
             lb_luachon.Text = thucdon4.AA_Title;
+            litem.Load(fpn_home, "GK");
         }
 
         private void Thucdon3_ChonthucdonClick(object sender, EventArgs e)
         {
             xulychonthucdon(3);
             lb_luachon.Text = thucdon3.AA_Title;
+            litem.Load(fpn_home, "CP");
         }
 
         private void Thucdon2_ChonthucdonClick(object sender, EventArgs e)
         {
             xulychonthucdon(2);
             lb_luachon.Text = thucdon2.AA_Title;
+            litem.Load(fpn_home, "BM");
         }
 
         private void Thucdon1_ChonthucdonClick(object sender, EventArgs e)
         {
             xulychonthucdon(1);
             lb_luachon.Text = thucdon1.AA_Title;
+            litem.Load(fpn_home, "TC");
         }
-
+        private void bt_xemthem_Click(object sender, EventArgs e)
+        {
+            formMain = (FormMain)Application.OpenForms["FormMain"];
+            if (formMain != null)
+            {
+                formMain.tcn.TriggerThucDonClick();
+            }
+            else
+            {
+                MessageBox.Show("Thể hiện của FormMain không tồn tại.");
+            }
+        }
 
         private void xulychonthucdon(int tt)
         {
@@ -90,6 +127,34 @@ namespace HiBanhMi_v1_2.Forms
             }
         }
 
+        private void KiemTraSanPhamGiamGia()
+        {
+            int sale = 0;
+            string tensp = null;
+
+            foreach (var sp in listsp.sanphams)
+            {
+                if (sale < sp.sale)
+                {
+                    sale = sp.sale;
+                    tensp = sp.ten;
+                }
+            }
+            lb_phantramgiam.Text = sale.ToString();
+            lb_tensp.Text = tensp;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
         private void setngonngu()
         {
             lb_loichao1.Text = NN.nn[28];
@@ -107,6 +172,7 @@ namespace HiBanhMi_v1_2.Forms
             thucdon2.AA_Title = NN.nn[33];
             thucdon3.AA_Title = NN.nn[34];
             thucdon4.AA_Title = NN.nn[35];
+            lb_noidunggiamgia.Text = NN.nn[66];
         }
         private void setcolor()
         {
@@ -141,5 +207,6 @@ namespace HiBanhMi_v1_2.Forms
             thucdon3.quaylai(THEME.t[8]);
             thucdon4.quaylai(THEME.t[8]);
         }
+
     }
 }

@@ -25,20 +25,27 @@ namespace HiBanhMi_v1_2.Forms
         public FormMain()
         {
             InitializeComponent();
+            this.Size = new Size(1400, 800);
+            listsp.sanphams.Clear();
+            listct.lssp.Clear();
+            listyt.yt.Clear();
+            userlist.users.Clear();
+            df.sanpham(listsp.sanphams);
             df.users(userlist.users);
+            df.YeuThich(listyt.yt);
             up.up(tkon.Tkc);
             //cn.updt();
 
-            //setting colo
-            this.BackColor = ColorTranslator.FromHtml(THEME.t[1]);
-            tcn.BackColor = ColorTranslator.FromHtml(THEME.t[1]);
             chonchucnang("home");
             // setting NN.nn
             tcn.AA_ten = uson.users.hoten;
 
-            tcn.AA_anhdaidien = img.LoadImageWithoutLocking(img.getpathImg(uson.users.avata));
+            tcn.AA_anhdaidien = img.LoadImageWithoutLocking(img.getpathImg("avatar", uson.users.avata));
 
             //tcn.AA_anhdaidien = Image.FromFile(img.getpathImg(uson.users.avata));
+            //set colo
+            setcolor();
+            //set ngonngu
             setngonngu();
 
 
@@ -48,18 +55,23 @@ namespace HiBanhMi_v1_2.Forms
             tcn.LichSuclick += Tcn_LichSuclick;
             tcn.Settingclick += Tcn_Settingclick;
 
-            
             openf.Mo(pn_hienthi, acctiveform, new Homeform());
         }
 
-
-        public void setngonngu()
+        private void setngonngu()
         {
             tcn.AA_1hometext = NN.nn[23];
             tcn.AA_2thucdontext = NN.nn[24];
             tcn.AA_3yeuthichtext = NN.nn[25];
             tcn.AA_4lichsutext = NN.nn[26];
             tcn.AA_5settingtext = NN.nn[27];
+        }
+        private void setcolor()
+        {
+            this.BackColor = ColorTranslator.FromHtml(THEME.t[1]);
+            tcn.BackColor = ColorTranslator.FromHtml(THEME.t[1]);
+            bt_exit.BackColor = ColorTranslator.FromHtml(THEME.t[1]);
+            bt_thunho.BackColor = ColorTranslator.FromHtml(THEME.t[1]);
         }
 
 
@@ -191,5 +203,15 @@ namespace HiBanhMi_v1_2.Forms
             chonchucnang("setting");
             openf.Mo(pn_hienthi, acctiveform, new Settingform());
         }
+        private void bt_exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bt_thunho_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

@@ -19,6 +19,7 @@ namespace HiBanhMi_v1_2
         GhiFile ghifile = new GhiFile();
         int speed = 20;
         Capnhat cn = new Capnhat();
+        private List<string> tkddn = new List<string>();
 
 
 
@@ -26,8 +27,11 @@ namespace HiBanhMi_v1_2
         {
             InitializeComponent();
 
+
             cn.updt();
             docfile.TaiKhoan(tk.TK);
+
+
             pn_qmk.Visible = false;
             tb_qmk_mk.Visible = false;
             checkBox3.Visible = false;
@@ -35,13 +39,15 @@ namespace HiBanhMi_v1_2
 
             pn_qmk.Location = new Point(0, 0);
 
-
-            //---------------------------------
-            tb_dn_taikhoan.AA_Content = "1";//|
-            tb_dn_matkhau.AA_Content = "1";// |
+            tb_dn_matkhau.AA_Content = "12345678";
+            tb_dn_taikhoan.AA_Content = "hau";
         }
+
+
+        
         private void DangNhap_Load(object sender, EventArgs e)
         {
+
             // text
             lb_dontiep.Text = NN.nn[0];
             tb_dn_taikhoan.AA_Title = NN.nn[1];
@@ -62,6 +68,8 @@ namespace HiBanhMi_v1_2
             checkBox1.Text = NN.nn[20];
             checkBox2.Text = NN.nn[20];
             checkBox3.Text = NN.nn[20];
+            lb_quenmatkhau.Text = NN.nn[82];
+            label1.Text = NN.nn[83];
 
             // color
             this.BackColor = ColorTranslator.FromHtml(THEME.t[0]);
@@ -131,6 +139,7 @@ namespace HiBanhMi_v1_2
                         tkon.Tkc = taik.Tk; tkon.Emailc = taik.Email; tkon.Mkc = taik.Mk;
                         this.Hide();
                         FormMain formm  = new FormMain();
+                        formm.FormClosed += (s, args) => Application.Exit();
                         formm.Show();
                         check = 1;
                         break;
@@ -253,18 +262,24 @@ namespace HiBanhMi_v1_2
 
         private void lb_quenmatkhau_Click(object sender, EventArgs e)
         {
+            tb_qmk_email.AA_Content = "";
+            tb_qmk_mk.Visible = false;
+            checkBox3.Visible = false;
+            tb_qmk_email.Enabled = true;
+            bt_qmk.Text = NN.nn[18];
             pn_qmk.Visible = true;
             bt_lui.Visible = true;
+            lb_kiemtra.Text = NN.nn[15];
+            lb_kiemtra.ForeColor = Color.Black;
             bt_lui.BringToFront();
         }
 
 
 
 
-        int buoc = 1;
         private void bt_qmk_Click(object sender, EventArgs e)
         {
-            if (buoc == 1)
+            if (bt_qmk.Text == NN.nn[18]) 
             {
                 foreach (TaiKhoan taik in tk.TK)
                 {
@@ -273,16 +288,19 @@ namespace HiBanhMi_v1_2
                         tb_qmk_mk.Visible = true;
                         tb_qmk_email.Enabled = false;
                         checkBox3.Visible = true;
-                        buoc = 2;
                         bt_qmk.Text = NN.nn[19];
                         lb_kiemtra.Text = NN.nn[21];
                         lb_kiemtra.ForeColor = Color.Green;
                         break;
                     }
-                    else buoc = 3;
+                    else
+                    {
+                        lb_kiemtra.Text = NN.nn[16];
+                        lb_kiemtra.ForeColor = Color.Red;
+                    }
                 }
             }
-            else if (buoc == 2)
+            else if (bt_qmk.Text == NN.nn[19])
             {
                 foreach (TaiKhoan taik in tk.TK)
                 {
@@ -304,11 +322,7 @@ namespace HiBanhMi_v1_2
                     }
                 }
             }
-            else
-            {
-                lb_kiemtra.Text = NN.nn[16];
-                lb_kiemtra.ForeColor = Color.Red;
-            }
+            
         }
 
         private void checkBox3_CheckedChanged(object sender, EventArgs e)

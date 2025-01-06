@@ -17,6 +17,7 @@ namespace HiBanhMi_v1_2.Forms
         public profile()
         {
             InitializeComponent();
+            this.Size = new Size(787, 640);
 
             //set color
             setcolor();
@@ -81,7 +82,7 @@ namespace HiBanhMi_v1_2.Forms
                 FormMain fm = Application.OpenForms.OfType<FormMain>().FirstOrDefault();
                 if (fm != null)
                 {
-                    fm.tcn.AA_anhdaidien = img.LoadImageWithoutLocking(img.getpathImg(uson.users.avata));
+                    fm.tcn.AA_anhdaidien = img.LoadImageWithoutLocking(img.getpathImg("avatar",uson.users.avata));
                     fm.Refresh();
                 }
             }
@@ -193,7 +194,7 @@ namespace HiBanhMi_v1_2.Forms
             tb_xacnhanmkmoi.AA_BorderColor = ColorTranslator.FromHtml(THEME.t[7]);
             tb_xacnhanmkmoi.AA_BackgroundColor = ColorTranslator.FromHtml(THEME.t[7]);
             lb_thongbao.ForeColor = Color.Black;
-            pic_avata.Image = Image.FromFile(img.getpathImg(uson.users.avata));
+            pic_avata.Image = Image.FromFile(img.getpathImg("avatar", uson.users.avata));
         }
         private void setngonngu()
         {

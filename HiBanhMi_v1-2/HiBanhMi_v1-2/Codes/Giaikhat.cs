@@ -8,26 +8,26 @@ namespace HiBanhMi_v1_2.Codes
 {
     internal class Giaikhat : sanpham
     {
-        public string loaiDoUong { get; set; } // Ví dụ: "Nước ngọt", "Trà", "Nước suối"
-        public int dungTich { get; set; } // Đơn vị: ml
-        public string huongVi { get; set; } // Ví dụ: "Chanh", "Cam", "Dâu"
+        public int daban { get; set; }
+        public double danhgia { get; set; }
+        public int luotdanhgia { get; set; }
 
         public Giaikhat() : base() { }
 
-        public Giaikhat(string Id, string Img, string Ten, double Giagoc, int Sale, int Soluong, string LoaiDoUong, int DungTich, string HuongVi)
+        public Giaikhat(string Id, string Img, string Ten, double Giagoc, int Sale, int Soluong, int Daban, double Danhgia, int Luotdanhgia)
             : base(Id, Img, Ten, Giagoc, Sale, Soluong)
         {
-            loaiDoUong = LoaiDoUong;
-            dungTich = DungTich;
-            huongVi = HuongVi;
+            daban = Daban;
+            danhgia = Danhgia;
+            luotdanhgia = Luotdanhgia;
         }
 
         public Giaikhat(Giaikhat giaikhat)
-            : this(giaikhat.id, giaikhat.img, giaikhat.ten, giaikhat.giagoc, giaikhat.sale, giaikhat.soluong, giaikhat.loaiDoUong, giaikhat.dungTich, giaikhat.huongVi) { }
+            : this(giaikhat.id, giaikhat.img, giaikhat.ten, giaikhat.giagoc, giaikhat.sale, giaikhat.soluong, giaikhat.daban, giaikhat.danhgia, giaikhat.luotdanhgia) { }
 
         public override string ToString()
         {
-            return $"{base.ToString()},{loaiDoUong},{dungTich},{huongVi}";
+            return $"{base.ToString()},{daban},{danhgia},{luotdanhgia}";
         }
     }
 

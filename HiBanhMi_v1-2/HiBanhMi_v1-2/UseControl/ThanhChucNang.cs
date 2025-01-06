@@ -49,6 +49,11 @@ namespace HiBanhMi_v1_2.UseControl
 
 
         // button home
+        public Image AA_1homeimg
+        {
+            get { return pictureBox1.BackgroundImage; }
+            set { pictureBox1.BackgroundImage = value; Invalidate(); }
+        }
         public Color AA_1homebg
         {
             get { return bt_home.BackColor; }
@@ -70,6 +75,11 @@ namespace HiBanhMi_v1_2.UseControl
             set { lb_home.Text = value; Invalidate(); }
         }
         // button thucdon
+        public Image AA_2thucdonimg
+        {
+            get { return pictureBox2.BackgroundImage; }
+            set { pictureBox2.BackgroundImage = value; Invalidate(); }
+        }
         public Color AA_2thucdonbg
         {
             get { return bt_thucdon.BackColor; }
@@ -91,6 +101,11 @@ namespace HiBanhMi_v1_2.UseControl
             set { lb_thucdon.Text = value; Invalidate(); }
         }
         // button yeuthich
+        public Image AA_3yeuthichimg
+        {
+            get { return pictureBox3.BackgroundImage; }
+            set { pictureBox3.BackgroundImage = value; Invalidate(); }
+        }
         public Color AA_3yeuthichbg
         {
             get { return bt_yeuthich.BackColor; }
@@ -112,6 +127,11 @@ namespace HiBanhMi_v1_2.UseControl
             set { lb_yeuthich.Text = value; Invalidate(); }
         }
         // button lichsu
+        public Image AA_4lichsuimg
+        {
+            get { return pictureBox4.BackgroundImage; }
+            set { pictureBox4.BackgroundImage = value; Invalidate(); }
+        }
         public Color AA_4lichsubg
         {
             get { return bt_lichsu.BackColor; }
@@ -133,6 +153,11 @@ namespace HiBanhMi_v1_2.UseControl
             set { lb_lichsu.Text = value; Invalidate(); }
         }
         // button setting
+        public Image AA_5settingimg
+        {
+            get { return pictureBox5.BackgroundImage; }
+            set { pictureBox5.BackgroundImage = value; Invalidate(); }
+        }
         public Color AA_5settingbg
         {
             get { return bt_setting.BackColor; }
@@ -158,30 +183,34 @@ namespace HiBanhMi_v1_2.UseControl
 
 
 
-
+        // Phương thức công khai để kích hoạt sự kiện lb_thucdon_Click
+        public void TriggerThucDonClick()
+        {
+            lb_thucdon_Click(this, EventArgs.Empty); // Gọi sự kiện click của lb_thucdon
+        }
         private void lb_home_Click(object sender, EventArgs e)
         {
-            Homeclick.Invoke(this, e);
+            Homeclick?.Invoke(this, EventArgs.Empty);
         }
 
         private void lb_thucdon_Click(object sender, EventArgs e)
         {
-            ThucDonclick.Invoke(this, e);
+            ThucDonclick?.Invoke(this, EventArgs.Empty);
         }
 
         private void lb_yeuthich_Click(object sender, EventArgs e)
         {
-            YeuThichclick.Invoke(this, e);
+            YeuThichclick?.Invoke(this, EventArgs.Empty);
         }
 
         private void lb_lichsu_Click(object sender, EventArgs e)
         {
-            LichSuclick.Invoke(this, e);
+            LichSuclick?.Invoke(this, EventArgs.Empty);
         }
 
         private void lb_setting_Click(object sender, EventArgs e)
         {
-            Settingclick.Invoke(this, e);
+            Settingclick?.Invoke(this, EventArgs.Empty);
         }
     }
 }

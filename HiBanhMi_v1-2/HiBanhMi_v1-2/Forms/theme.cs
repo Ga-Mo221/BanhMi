@@ -18,6 +18,7 @@ namespace HiBanhMi_v1_2.Forms
         public theme()
         {
             InitializeComponent();
+            this.Size = new Size(787, 640);
 
             // set color
             setcolor();

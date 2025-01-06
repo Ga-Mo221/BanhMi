@@ -99,9 +99,9 @@ namespace HiBanhMi_v1_2.Codes
         }
 
         // Hàm lấy đường dẫn đầy đủ của ảnh từ tên file
-        public static string getpathImg(string filename)
+        public static string getpathImg(string foldername, string filename)
         {
-            string folderPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "avatar");
+            string folderPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory,foldername);
 
             // Đảm bảo thư mục tồn tại
             if (!Directory.Exists(folderPath))

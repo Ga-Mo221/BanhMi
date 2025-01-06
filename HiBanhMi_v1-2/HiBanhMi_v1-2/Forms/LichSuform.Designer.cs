@@ -28,8 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.lb_ten = new System.Windows.Forms.Label();
+            this.fpn = new System.Windows.Forms.FlowLayoutPanel();
             this.bo_gocWinform1 = new Bo_GocWinfrom.Bo_gocWinform();
             this.SuspendLayout();
+            // 
+            // lb_ten
+            // 
+            this.lb_ten.AutoSize = true;
+            this.lb_ten.Font = new System.Drawing.Font("JetBrains Mono NL ExtraBold", 24F, System.Drawing.FontStyle.Bold);
+            this.lb_ten.Location = new System.Drawing.Point(32, 19);
+            this.lb_ten.Name = "lb_ten";
+            this.lb_ten.Size = new System.Drawing.Size(152, 43);
+            this.lb_ten.TabIndex = 0;
+            this.lb_ten.Text = "Lich Su";
+            // 
+            // fpn
+            // 
+            this.fpn.AutoScroll = true;
+            this.fpn.Location = new System.Drawing.Point(30, 91);
+            this.fpn.Name = "fpn";
+            this.fpn.Size = new System.Drawing.Size(1011, 585);
+            this.fpn.TabIndex = 1;
             // 
             // bo_gocWinform1
             // 
@@ -42,15 +62,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1080, 720);
+            this.Controls.Add(this.fpn);
+            this.Controls.Add(this.lb_ten);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LichSuform";
             this.Text = "LichSuform";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private Bo_GocWinfrom.Bo_gocWinform bo_gocWinform1;
+        private System.Windows.Forms.Label lb_ten;
+        private System.Windows.Forms.FlowLayoutPanel fpn;
     }
 }

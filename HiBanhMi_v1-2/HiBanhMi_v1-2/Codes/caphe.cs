@@ -8,26 +8,26 @@ namespace HiBanhMi_v1_2.Codes
 {
     internal class Caphe : sanpham
     {
-        public string loaiCaPhe { get; set; } // Ví dụ: "Đen", "Sữa", "Espresso"
-        public string kichThuoc { get; set; } // Ví dụ: "Nhỏ", "Vừa", "Lớn"
-        public int duong { get; set; } // Mức độ đường (gói)
+        public int daban { get; set; }
+        public double danhgia { get; set; }
+        public int luotdanhgia { get; set; }
 
         public Caphe() : base() { }
 
-        public Caphe(string Id, string Img, string Ten, double Giagoc, int Sale, int Soluong, string LoaiCaPhe, string KichThuoc, int Duong)
+        public Caphe(string Id, string Img, string Ten, double Giagoc, int Sale, int Soluong, int Daban, double Danhgia, int Luotdanhgia)
             : base(Id, Img, Ten, Giagoc, Sale, Soluong)
         {
-            loaiCaPhe = LoaiCaPhe;
-            kichThuoc = KichThuoc;
-            duong = Duong;
+            daban = Daban;
+            danhgia = Danhgia;
+            luotdanhgia = Luotdanhgia;
         }
 
         public Caphe(Caphe caphe)
-            : this(caphe.id, caphe.img, caphe.ten, caphe.giagoc, caphe.sale, caphe.soluong, caphe.loaiCaPhe, caphe.kichThuoc, caphe.duong) { }
+            : this(caphe.id, caphe.img, caphe.ten, caphe.giagoc, caphe.sale, caphe.soluong, caphe.daban, caphe.danhgia, caphe.luotdanhgia) { }
 
         public override string ToString()
         {
-            return $"{base.ToString()},{loaiCaPhe},{kichThuoc},{duong}";
+            return $"{base.ToString()},{daban},{danhgia},{luotdanhgia}";
         }
     }
 

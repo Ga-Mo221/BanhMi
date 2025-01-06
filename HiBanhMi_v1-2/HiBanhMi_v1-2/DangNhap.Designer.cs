@@ -253,7 +253,7 @@
             // 
             this.pn_qmk.BackColor = System.Drawing.Color.Snow;
             this.pn_qmk.Controls.Add(this.pn_qmk_fill);
-            this.pn_qmk.Location = new System.Drawing.Point(12, 441);
+            this.pn_qmk.Location = new System.Drawing.Point(12, 460);
             this.pn_qmk.Name = "pn_qmk";
             this.pn_qmk.Size = new System.Drawing.Size(800, 480);
             this.pn_qmk.TabIndex = 9;
